@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Payment App</title>
+</head>
+<body>
+    <h2>Pay using your preferred UPI app</h2>
+    <p>Select your preferred payment app below:</p>
+    
+    <!-- BHIM UPI Payment Link -->
+    <a href="upi://pay?pa=8618239757@upi&pn=Rohan&cu=INR">
+        <button>Open in BHIM UPI</button>
+    </a>
+    <br><br>
+    
+    <!-- Corrected Google Pay Payment Link -->
+    <a href="intent://pay?pa=8618239757@upi&pn=Rohan&cu=INR#Intent;scheme=upi;package=com.google.android.apps.nbu.paisa.user;end;">
+        <button>Google Pay</button>
+    </a>
+    <br><br>
+    
+    <!-- PhonePe Payment Link -->
+    <a href="phonepe://upi/pay?pa=8618239757@upi&pn=Rohan">
+        <button>PhonePe</button>
+    </a>
+    <br><br>
+    
+    <!-- Paytm Payment Link -->
+    <a href="paytmmp://upi/pay?pa=8618239757@upi&pn=Rohan">
+        <button>Paytm</button>
+    </a>
+</body>
+</html>
